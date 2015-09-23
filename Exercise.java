@@ -13,7 +13,7 @@ public class Exercise{
     }
     //DEFINED FACTORS
     private int Id;
-    private String MemberNumber;
+    private int MemberNumber;
     private String exerciseType;
     private String Date;
     private double Time;
@@ -21,14 +21,14 @@ public class Exercise{
     
         public Exercise() {
         Id = 0;
-        MemberNumber = "";
+        MemberNumber = 0;
         exerciseType = "";
         Date = "";
         Time = 0;
         Comment = "";
     }
 
-    public Exercise(int Id, String MemberNumber, String exerciseType, String Date, Double Time, String Comment) {
+    public Exercise(int Id, int MemberNumber, String exerciseType, String Date, Double Time, String Comment) {
         this.Id = Id;
         this.MemberNumber = MemberNumber;
         this.exerciseType = exerciseType;
@@ -54,11 +54,11 @@ public class Exercise{
         this.Id = Id;
     }
 
-    public String getMemberNumber() {
+    public int getMemberNumber() {
         return MemberNumber;
     }
 
-    public void setMemberNumber(String MemberNumber) {
+    public void setMemberNumber(int MemberNumber) {
         this.MemberNumber = MemberNumber;
     }
 
