@@ -20,13 +20,7 @@ public class Validator {
 
     /**
      * Prompts the user with a message and then retrieves what the user types as
-     * a String. The regex is a String that contains a regular expression. The
-     * message repeats until the user enters a correct value. For example, a
-     * regular expression of "^[qadl]$" would require a "q" or an "a" or a "d"
-     * or an "l" to be entered. A regular expression of "^quit|add|delete|list$"
-     * would require one of the listed words to be entered. A regular expression
-     * of "^\d\d-\d\d-\d\d\d\d$" would require a date in the form of
-     * "11-01-2014" to be entered.
+     * a String. A regular expression of "^\d\d-\d\d-\d\d\d\d$" would require a date in the form of "11-01-2014" to be entered.
      *
      * @param sc
      * @param prompt
