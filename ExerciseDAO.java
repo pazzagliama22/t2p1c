@@ -86,7 +86,7 @@ public class ExerciseDAO {
             System.out.println("Read file error with " + ioe.getMessage());
         }
     }
-
+//retrieve
     protected void writeList() {
         Path path = Paths.get(fileName);
         try (BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
